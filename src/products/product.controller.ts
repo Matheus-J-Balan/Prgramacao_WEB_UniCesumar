@@ -27,23 +27,23 @@ class ProductController {
         return res.status(200).json(product)
     }
 
-    // async find(req: Request, res: Response) {
-    //     const user = await new ProductService().find(req.params.id)
+     async find(req: Request, res: Response) {
+         const user = await new ProductService().find(req.params.id)
 
-    //     return res.status(200).json(user)
-    // }
+         return res.status(200).json(user)
+     }
 
-    // async update(req: Request, res: Response) {
-    //     const user = await new ProductService().update(req.params.id, req.body)
+     async update(req: Request, res: Response) {
+         const user = await new ProductService().update(req.params.id, req.body)
 
-    //     return res.status(200).json(user)
-    // }
+         return res.status(200).json(user)
+     }
 
-    // async delete(req: Request, res: Response) {
-    //     await new ProductService().delete(req.params.id)
+     async delete(req: Request, res: Response) {
+         await new ProductService().delete(req.params.id)
 
-    //     return res.status(200).json("Successfully deleted user!")
-    // }
+         return res.status(200).json("Successfully deleted user!")
+     }
 
     
 }
