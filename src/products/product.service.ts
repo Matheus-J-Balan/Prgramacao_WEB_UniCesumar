@@ -5,15 +5,36 @@ import { writeFile, readFile } from 'fs/promises'
 export class ProductService {
     
     async create(data: ProductType) {
-        const t = await ProductModel.create(data)
+        const product = await ProductModel.create(data)
         
-        return t
+        return product
     }
 
     async listProducts() {
         const productList = await ProductModel.find()
 
         return productList
+    }
+
+    async find(id) {
+        const productFind = await ProductModel.find(id) 
+
+        return productFind
+    }
+
+    async update (id, dataToUpdate: ProductType){
+        const updatedProduct = await ProductModel.findOneAndUpdate({_id: id}, {
+                name: dataToUpdate.name,
+                price: dataToUpdate.price,
+                quantity: dataToUpdate.quantity, 
+        }, {new: true})
+
+        return updatedProduct
+    }
+
+    async delete(id){
+        await ProductModel.findOneAndDelete({_id: id})
+        return
     }
 
     async productsWriteFile() {
