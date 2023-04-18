@@ -53,4 +53,17 @@ export class ProdutoService{
         console.log(dados)
         return dados
     }
+    
+    async getProductRandom(){
+        const listaProdutos = await ProdutoModel.find().limit(10)
+
+        var quatroAleatorios
+
+        for (let i = 0; i < 4; i++){
+            var indice = Math.floor(Math.random() * listaProdutos.length)
+            quatroAleatorios.push(listaProdutos[indice])
+        }
+
+        return quatroAleatorios
+    }
 }

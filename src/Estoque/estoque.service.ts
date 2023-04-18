@@ -21,19 +21,6 @@ export class EstoqueService{
         return criarEstoque
     }
 
-    async getStockRandom(){
-        const listaProdutos = await ProductModels.find().limit(10)
-
-        var quatroAleatorios
-
-        for (let i = 0; i < 4; i++){
-            var indice = Math.floor(Math.random() * listaProdutos.length)
-            quatroAleatorios.push(listaProdutos[indice])
-        }
-
-        return quatroAleatorios
-    }
-
     async getStockTotalValue(){
         const listaProdutos = await EstoqueModels.find()
 

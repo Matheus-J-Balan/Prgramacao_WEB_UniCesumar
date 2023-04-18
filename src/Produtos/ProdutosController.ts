@@ -44,6 +44,12 @@ class ProdutoController{
 
         return res.send(200).json(lerArquivoProduto)
     }
+    async ProdutosAleatorio(req: Request, res: Response){
+        const produtoAleatorio = await new ProdutoService().getProductRandom();
+
+        return res.send(200).json(produtoAleatorio)
+    } 
+
 }
 
 export default new ProdutoController()

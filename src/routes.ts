@@ -19,9 +19,14 @@ routes.post('/products', productController.create)
 routes.get('/products/list', productController.list)
 routes.get('/products/writefile', productController.writeFile)
 routes.get('/products/readfile', productController.readFile)
+routes.get('/products/random', productController.getProductRandom)
+routes.put('/produtos/:id', productController.update)
+routes.delete('/produtos/:id', productController.delete)
+routes.get('/produtos/:id', productController.find)
 routes.get('/products/stock', stockController.stock)
-routes.get('/products/stock/random', stockController.getStockRandom)
 routes.get('/products/stock/total', stockController.getStockTotalValue)
+
+
 
 //Feito prara estudar para prova
 routes.post('/usuario', usuarioController.CriarUsuario)
@@ -30,14 +35,14 @@ routes.get('/usuario/:id', usuarioController.AcharUsuario)
 routes.put('/usuario/:id', usuarioController.AtualizarUsuario)
 routes.delete('/usuario/:id', usuarioController.DeletarUsuaio)
 routes.get('/produtos/estoque', estoqueController.Estoque)
-routes.get('/produtos/estoque/aleatorio', estoqueController.EstoqueAleatorio)
 routes.get('/produtos/estoque/total', estoqueController.ValorTotalEstoque)
+routes.get('/produtos/aleatorio', produtosController.ProdutosAleatorio)
 routes.post('/produtos', produtosController.CriarProduto)
 routes.get('/produtos/lista', produtosController.ListarProduto)
 routes.get('/produtos/escreveArquivo', produtosController.EscreveArquivoProduto)
 routes.get('/produtos/leArquivo', produtosController.LerArquivoProduto)
-routes.get('/produtos/:id', produtosController.AtualizarProduto)
-routes.get('/produtos/:id', produtosController.DeletarProduto)
+routes.put('/produtos/:id', produtosController.AtualizarProduto)
+routes.delete('/produtos/:id', produtosController.DeletarProduto)
 routes.get('/produtos/:id', produtosController.AcharProduto)
 
 

@@ -8,12 +8,6 @@ class EstoqueController{
         return res.send(200).json(estoque)
     }
 
-    async EstoqueAleatorio(req: Request, res: Response){
-        const estoqueAleatorio = await new EstoqueService().getStockRandom();
-
-        return res.send(200).json(estoqueAleatorio)
-    } 
-
     async ValorTotalEstoque(req: Request, res: Response){
         const estoqueValorTotal = await new EstoqueService().getStockTotalValue()
 

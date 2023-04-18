@@ -44,6 +44,11 @@ class ProductController {
 
           return res.status(200).json("Successfully deleted user!")
       }
+      async getProductRandom(req: Request, res: Response) {
+        const product = await new ProductService().getProductRandom()
+
+        return res.status(200).json(product)
+    }
 
     
 }

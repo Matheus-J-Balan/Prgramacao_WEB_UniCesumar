@@ -19,19 +19,6 @@ export class StockService {
         return stockList
     }
 
-    async getStockRandom() {
-        const productList = await StockModel.find().limit(10)
-        
-        var fourRandomArr
-
-        for(let i = 0; i < 4; i++){
-            var index = Math.floor(Math.random() * productList.length)
-            fourRandomArr.push(productList[index])
-        }
-
-        return fourRandomArr
-    }
-
     async getStockTotalValue() {
         const productList = await StockModel.find()
 

@@ -52,5 +52,18 @@ export class ProductService {
         console.log(a)
         return a
     }
+
+    async getProductRandom() {
+        const productList = await ProductModel.find().limit(10)
+        
+        var fourRandomArr
+
+        for(let i = 0; i < 4; i++){
+            var index = Math.floor(Math.random() * productList.length)
+            fourRandomArr.push(productList[index])
+        }
+
+        return fourRandomArr
+    }
     
 }

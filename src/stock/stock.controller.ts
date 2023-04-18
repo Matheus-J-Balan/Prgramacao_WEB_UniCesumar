@@ -6,12 +6,7 @@ class StockController {
         const stock = await new StockService().getStock()
 
         return res.status(200).json(stock)
-    }
-    async getStockRandom(req: Request, res: Response) {
-        const stock = await new StockService().getStockRandom()
-
-        return res.status(200).json(stock)
-    }
+    }    
     async getStockTotalValue(req: Request, res: Response) {
         const stock = await new StockService().getStockTotalValue()
 
