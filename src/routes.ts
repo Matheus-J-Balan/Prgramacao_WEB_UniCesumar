@@ -1,34 +1,10 @@
 import { Router } from 'express'
-import healthCheckController from './controller/healthCheckController'
-import userController from './users/user.controller'
-import productController from './products/product.controller'
-import stockController from './stock/stock.controller'
 import usuarioController from './Usuario/UsuarioController'
 import estoqueController from './Estoque/EstoqueController'
 import produtosController from './Produtos/ProdutosController'
 
 const routes = Router()
 
-routes.get('/health-check', healthCheckController.check)
-routes.post('/users', userController.create)
-routes.get('/users', userController.list)
-routes.get('/users/:id', userController.find)
-routes.put('/users/:id', userController.update)
-routes.delete('/users/:id', userController.delete)
-routes.post('/products', productController.create)
-routes.get('/products/list', productController.list)
-routes.get('/products/writefile', productController.writeFile)
-routes.get('/products/readfile', productController.readFile)
-routes.get('/products/random', productController.getProductRandom)
-routes.put('/produtos/:id', productController.update)
-routes.delete('/produtos/:id', productController.delete)
-routes.get('/produtos/:id', productController.find)
-routes.get('/products/stock', stockController.stock)
-routes.get('/products/stock/total', stockController.getStockTotalValue)
-
-
-
-//Feito prara estudar para prova
 routes.post('/usuario', usuarioController.CriarUsuario)
 routes.get('/usuario', usuarioController.ListarUsuarios)
 routes.get('/usuario/:id', usuarioController.AcharUsuario)
@@ -46,5 +22,4 @@ routes.delete('/produtos/:id', produtosController.DeletarProduto)
 routes.get('/produtos/:id', produtosController.AcharProduto)
 
 
-// 17 - Estamos exportando a constante routes
 export default routes

@@ -1,0 +1,92 @@
+[
+  {
+    "nomeCliente": "Jamison Dixie",
+    "dataNascimento": "19/2/2010",
+    "genero": "Male",
+    "email": "jdixie0@youtube.com",
+    "endereco": "Suite 35",
+    "estado": "SN",
+    "cidade": "Ndibène Dahra"
+  },
+  {
+    "nomeCliente": "Thelma Berthelet",
+    "dataNascimento": "28/5/1970",
+    "genero": "Female",
+    "email": "tberthelet1@technorati.com",
+    "endereco": "5th Floor",
+    "estado": "PL",
+    "cidade": "Ostaszewo"
+  },
+  {
+    "nomeCliente": "Idalina Brandacci",
+    "dataNascimento": "8/5/1920",
+    "genero": "Female",
+    "email": "ibrandacci2@elegantthemes.com",
+    "endereco": "Suite 80",
+    "estado": "JP",
+    "cidade": "Sendai-shi"
+  },
+  {
+    "nomeCliente": "Duffie McGahern",
+    "dataNascimento": "13/1/1982",
+    "genero": "Male",
+    "email": "dmcgahern3@yahoo.com",
+    "endereco": "Apt 400",
+    "estado": "HR",
+    "cidade": "Vinež"
+  },
+  {
+    "nomeCliente": "Gale Rounsivall",
+    "dataNascimento": "27/6/1925",
+    "genero": "Female",
+    "email": "grounsivall4@globo.com",
+    "endereco": "2nd Floor",
+    "estado": "JP",
+    "cidade": "Kawanishi"
+  },
+  {
+    "nomeCliente": "Cliff Tall",
+    "dataNascimento": "8/6/1977",
+    "genero": "Male",
+    "email": "ctall5@jalbum.net",
+    "endereco": "PO Box 70313",
+    "estado": "CN",
+    "cidade": "Qiongshan"
+  },
+  {
+    "nomeCliente": "Othilia Martins",
+    "dataNascimento": "17/6/1997",
+    "genero": "Female",
+    "email": "omartins6@cloudflare.com",
+    "endereco": "PO Box 24794",
+    "estado": "MT",
+    "cidade": "Kirkop"
+  },
+  {
+    "nomeCliente": "Burgess Ginnell",
+    "dataNascimento": "30/6/1964",
+    "genero": "Male",
+    "email": "bginnell7@hp.com",
+    "endereco": "5th Floor",
+    "estado": "ID",
+    "cidade": "Krajan Karangwage"
+  },
+  {
+    "nomeCliente": "Knox Shimmin",
+    "dataNascimento": "14/9/1927",
+    "genero": "Male",
+    "email": "kshimmin8@hc360.com",
+    "endereco": "1st Floor",
+    "estado": "KH",
+    "cidade": "Pursat"
+  },
+  {
+    "nomeCliente": "Early Layfield",
+    "dataNascimento": "21/3/1964",
+    "genero": "Male",
+    "email": "elayfield9@prlog.org",
+    "endereco": "5th Floor",
+    "estado": "UA",
+    "cidade": "Matviyivka"
+  }
+]
