@@ -1,6 +1,6 @@
 [
   {
-    "nomeCliente": "Jamison Dixie",
+    "nomeVendedor": "Jamison Dixie",
     "dataNascimento": "19/2/2010",
     "genero": "Male",
     "email": "jdixie0@youtube.com",
@@ -19,7 +19,7 @@
     }]
   },
   {
-    "nomeCliente": "Thelma Berthelet",
+    "nomeVendedor": "Thelma Berthelet",
     "dataNascimento": "28/5/1970",
     "genero": "Female",
     "email": "tberthelet1@technorati.com",
@@ -38,7 +38,7 @@
     }]
   },
   {
-    "nomeCliente": "Idalina Brandacci",
+    "nomeVendedor": "Idalina Brandacci",
     "dataNascimento": "8/5/1920",
     "genero": "Female",
     "email": "ibrandacci2@elegantthemes.com",
@@ -57,7 +57,7 @@
     }]
   },
   {
-    "nomeCliente": "Duffie McGahern",
+    "nomeVendedor": "Duffie McGahern",
     "dataNascimento": "13/1/1982",
     "genero": "Male",
     "email": "dmcgahern3@yahoo.com",
@@ -76,7 +76,7 @@
     }]
   },
   {
-    "nomeCliente": "Gale Rounsivall",
+    "nomeVendedor": "Gale Rounsivall",
     "dataNascimento": "27/6/1925",
     "genero": "Female",
     "email": "grounsivall4@globo.com",
@@ -95,7 +95,7 @@
     }]
   },
   {
-    "nomeCliente": "Cliff Tall",
+    "nomeVendedor": "Cliff Tall",
     "dataNascimento": "8/6/1977",
     "genero": "Male",
     "email": "ctall5@jalbum.net",
@@ -114,7 +114,7 @@
     }]
   },
   {
-    "nomeCliente": "Othilia Martins",
+    "nomeVendedor": "Othilia Martins",
     "dataNascimento": "17/6/1997",
     "genero": "Female",
     "email": "omartins6@cloudflare.com",
@@ -133,7 +133,7 @@
     }]
   },
   {
-    "nomeCliente": "Burgess Ginnell",
+    "nomeVendedor": "Burgess Ginnell",
     "dataNascimento": "30/6/1964",
     "genero": "Male",
     "email": "bginnell7@hp.com",
@@ -152,7 +152,7 @@
     }]
   },
   {
-    "nomeCliente": "Knox Shimmin",
+    "nomeVendedor": "Knox Shimmin",
     "dataNascimento": "14/9/1927",
     "genero": "Male",
     "email": "kshimmin8@hc360.com",
@@ -171,7 +171,7 @@
     }]
   },
   {
-    "nomeCliente": "Early Layfield",
+    "nomeVendedor": "Early Layfield",
     "dataNascimento": "21/3/1964",
     "genero": "Male",
     "email": "elayfield9@prlog.org",

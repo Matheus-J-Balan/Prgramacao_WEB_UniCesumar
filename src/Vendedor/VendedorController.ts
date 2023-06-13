@@ -40,25 +40,25 @@ class VendedorController{
     } 
 
     async VendedorEmail(req: Request, res: Response){
-        const { gender, state, emailHost } = req.query;
+        const { genero, estado, email } = req.query;
 
         const query: any = {};
     
-        if (gender) {
-          query.gender = gender;
+        if (genero) {
+          query.gender = genero;
         }
     
-        if (state) {
-          query.state = state;
+        if (estado) {
+          query.state = estado;
         }
     
-        if (emailHost) {
-          query.email = { $regex: `${emailHost}$`, $options: "i" };
+        if (email) {
+          query.email = { $regex: `${email}$`, $options: "i" };
         }
 
-        const findedCustomer = await new VendedorService().findByEmail(query);
+        const vendedorAchado = await new VendedorService().findByEmail(query);
 
-        return res.send(200).json(findedCustomer)
+        return res.send(200).json(vendedorAchado)
     }
 
 }
