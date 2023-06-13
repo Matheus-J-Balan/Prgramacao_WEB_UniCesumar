@@ -15,6 +15,12 @@ export class VendedorService{
         return vendedorAchado
     }
     
+    async findByEmail(email){
+        const vendedorEmail = await VendedorModels.find(email);
+
+        return vendedorEmail
+    }
+
     async getRandom(){
         const listaVendedores = await VendedorModels.find().limit(10)
 

@@ -39,6 +39,28 @@ class VendedorController{
         return res.send(200).json(vendedorAleatorio)
     } 
 
+    async VendedorEmail(req: Request, res: Response){
+        const { gender, state, emailHost } = req.query;
+
+        const query: any = {};
+    
+        if (gender) {
+          query.gender = gender;
+        }
+    
+        if (state) {
+          query.state = state;
+        }
+    
+        if (emailHost) {
+          query.email = { $regex: `${emailHost}$`, $options: "i" };
+        }
+
+        const findedCustomer = await new VendedorService().findByEmail(query);
+
+        return res.send(200).json(findedCustomer)
+    }
+
 }
 
 export default new VendedorController()

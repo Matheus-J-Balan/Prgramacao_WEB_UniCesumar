@@ -24,7 +24,7 @@ class App {
     private async database() {
         try {
             mongoose.set("strictQuery", true)
-            await mongoose.connect('mongodb://0.0.0.0:27017/esoft5s')
+            await mongoose.connect('mongodb://0.0.0.0:27017/Trab-Bd')
             console.log('Connect database success')
         } catch (err) {
             console.error('Connect database fail, error: ', err)

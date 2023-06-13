@@ -6,7 +6,17 @@
     "email": "jdixie0@youtube.com",
     "endereco": "Suite 35",
     "estado": "SN",
-    "cidade": "Ndibène Dahra"
+    "cidade": "Ndibène Dahra",
+    "Cliente": [{
+      "nome": "Matheus",
+      "Produto": [{
+        "nome": "Kibe",
+        "preco": 4.99,
+        "Estoque": [{
+            "quantidade": 5
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Thelma Berthelet",
@@ -15,7 +25,17 @@
     "email": "tberthelet1@technorati.com",
     "endereco": "5th Floor",
     "estado": "PL",
-    "cidade": "Ostaszewo"
+    "cidade": "Ostaszewo",
+    "Cliente": [{
+      "nome": "Maria",
+      "Produto": [{
+        "nome": "Camisa",
+        "preco": 15.99,
+        "Estoque": [{
+            "quantidade": 10
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Idalina Brandacci",
@@ -24,7 +44,17 @@
     "email": "ibrandacci2@elegantthemes.com",
     "endereco": "Suite 80",
     "estado": "JP",
-    "cidade": "Sendai-shi"
+    "cidade": "Sendai-shi",
+    "Cliente": [{
+      "nome": "Guilherme",
+      "Produto": [{
+        "nome": "Mouse",
+        "preco": 99.99,
+        "Estoque": [{
+            "quantidade": 1
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Duffie McGahern",
@@ -33,7 +63,17 @@
     "email": "dmcgahern3@yahoo.com",
     "endereco": "Apt 400",
     "estado": "HR",
-    "cidade": "Vinež"
+    "cidade": "Vinež",
+    "Cliente": [{
+      "nome": "Carol",
+      "Produto": [{
+        "nome": "Fone",
+        "preco": 120.00,
+        "Estoque": [{
+            "quantidade": 5
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Gale Rounsivall",
@@ -42,7 +82,17 @@
     "email": "grounsivall4@globo.com",
     "endereco": "2nd Floor",
     "estado": "JP",
-    "cidade": "Kawanishi"
+    "cidade": "Kawanishi",
+    "Cliente": [{
+      "nome": "Kleber",
+      "Produto": [{
+        "nome": "Flecha",
+        "preco": 2.99,
+        "Estoque": [{
+            "quantidade": 35
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Cliff Tall",
@@ -51,7 +101,17 @@
     "email": "ctall5@jalbum.net",
     "endereco": "PO Box 70313",
     "estado": "CN",
-    "cidade": "Qiongshan"
+    "cidade": "Qiongshan",
+    "Cliente": [{
+      "nome": "Marcos",
+      "Produto": [{
+        "nome": "Boné",
+        "preco": 16.99,
+        "Estoque": [{
+            "quantidade": 5
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Othilia Martins",
@@ -60,7 +120,17 @@
     "email": "omartins6@cloudflare.com",
     "endereco": "PO Box 24794",
     "estado": "MT",
-    "cidade": "Kirkop"
+    "cidade": "Kirkop",
+    "Cliente": [{
+      "nome": "Robson",
+      "Produto": [{
+        "nome": "Garfo",
+        "preco": 1.99,
+        "Estoque": [{
+            "quantidade": 90
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Burgess Ginnell",
@@ -69,7 +139,17 @@
     "email": "bginnell7@hp.com",
     "endereco": "5th Floor",
     "estado": "ID",
-    "cidade": "Krajan Karangwage"
+    "cidade": "Krajan Karangwage",
+    "Cliente": [{
+      "nome": "Michael",
+      "Produto": [{
+        "nome": "Calça",
+        "preco": 59.99,
+        "Estoque": [{
+            "quantidade": 2
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Knox Shimmin",
@@ -78,7 +158,17 @@
     "email": "kshimmin8@hc360.com",
     "endereco": "1st Floor",
     "estado": "KH",
-    "cidade": "Pursat"
+    "cidade": "Pursat",
+    "Cliente": [{
+      "nome": "Jorge",
+      "Produto": [{
+        "nome": "Gatorade",
+        "preco": 20.00,
+        "Estoque": [{
+            "quantidade": 4
+          }]
+      }]
+    }]
   },
   {
     "nomeCliente": "Early Layfield",
@@ -87,6 +177,16 @@
     "email": "elayfield9@prlog.org",
     "endereco": "5th Floor",
     "estado": "UA",
-    "cidade": "Matviyivka"
+    "cidade": "Matviyivka",
+    "Cliente": [{
+      "nome": "Natan",
+      "Produto": [{
+        "nome": "Agua",
+        "preco": 0.99,
+        "Estoque": [{
+            "quantidade": 60
+          }]
+      }]
+    }]
   }
 ]

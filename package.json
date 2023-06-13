@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/server.ts",
-    "start": "ts-node src/atividades/leituraEscrita/main.ts",
-    "random": "ts-node src/atividades/arrayRandomValues/arrayRandomValues.ts"
+    "start": "ts-node src/main.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Matheus-J-Balan/Prgramacao_WEB_UniCesumar.git"
+    "url": "git+https://github.com/Matheus-J-Balan/Trab_API_Banco.git"
   },
   "bugs": {
-    "url": "https://github.com/Matheus-J-Balan/Prgramacao_WEB_UniCesumar/issues"
+    "url": "https://github.com/Matheus-J-Balan/Trab_API_Banco/issues"
   },
-  "homepage": "https://github.com/Matheus-J-Balan/Prgramacao_WEB_UniCesumar#readme",
+  "homepage": "https://github.com/Matheus-J-Balan/Trab_API_Banco#readme",
   "description": ""
 }
