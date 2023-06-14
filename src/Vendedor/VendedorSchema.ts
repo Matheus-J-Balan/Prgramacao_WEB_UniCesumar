@@ -8,6 +8,16 @@ const VendedorSchema = new Schema({
     address: String,
     state: String,
     city: String,
+    Cliente:{
+        nomeCliente: String,
+        Produto:{
+            nomeProduto: String,
+            preco: Number,
+            Estoque:{
+                qntd: Number
+            }
+        }
+    }
 });
 
 export default model('Vendedor', VendedorSchema)
